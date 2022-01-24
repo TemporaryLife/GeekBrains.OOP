@@ -16,7 +16,11 @@ namespace Anatoly.Figures
             _width = width;
 
         }
-
+        public override void ShowInfo()
+        {
+            base.ShowInfo();
+            Console.WriteLine($"Width: {_width}, height: {_height}");
+        }
         public override double GetSquare() => _width * _height;
 
     }
