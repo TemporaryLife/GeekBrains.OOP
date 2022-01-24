@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Anatoly.Finanse
 {
-    
-    internal class BankAccount
+
+    internal sealed class BankAccount
     {
         private decimal _accountBalance;
         private AccountTypes _accountType;
@@ -32,7 +32,7 @@ namespace Anatoly.Finanse
         }
 
 
-        public BankAccount():this(0, AccountTypes.Payment)
+        public BankAccount() : this(0, AccountTypes.Payment)
         {
         }
 
@@ -50,8 +50,8 @@ namespace Anatoly.Finanse
             _accountType = (AccountTypes)accountTypeNumber;
             BankAccount.GenerateID();
             _accountNumber = accountID;
-            
-        }      
+
+        }
 
         public void TakeMoney(decimal Amount)
         {
@@ -67,13 +67,50 @@ namespace Anatoly.Finanse
         {
             if (AccountBalance >= Amount)
             {
-                AccountBalance-=Amount;
-                Receiver.AccountBalance+=Amount;
+                AccountBalance -= Amount;
+                Receiver.AccountBalance += Amount;
                 return;
             }
             Console.WriteLine("Недостаточно денег на счету отправителя");
         }
 
+
+        public static bool operator ==(BankAccount firstAccount, BankAccount secondAccount)
+        {
+            return firstAccount.AccountBalance == secondAccount.AccountBalance;
+        }
+
+        public static bool operator !=(BankAccount firstAccount, BankAccount secondAccount)
+        {
+            return firstAccount._accountBalance != secondAccount._accountBalance;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if ((obj == null) || !this.GetType().Equals(obj.GetType()))
+            {
+                return false;
+            }
+
+            else
+            {
+                BankAccount account = (BankAccount)obj;
+                return (_accountBalance==account._accountBalance) && (_accountType==account._accountType) && (_accountNumber==account._accountNumber);
+            }
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode()*accountID;
+        }
+
+        public override string ToString()
+        {
+            return
+                (
+                $"Account ID: {accountID}\nAccount Type: {_accountType}\nAccountNumber: {_accountNumber}\nAccount balance: {_accountBalance}"
+                );
+        }
         private static void GenerateID() => accountID++;
     }
 }
