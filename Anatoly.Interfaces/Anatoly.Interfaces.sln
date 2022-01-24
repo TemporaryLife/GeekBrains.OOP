@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Anatoly.Interfaces", "Anatoly.Interfaces.csproj", "{0EC62399-E48C-4FBB-A252-C186F8BC6137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EC62399-E48C-4FBB-A252-C186F8BC6137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC62399-E48C-4FBB-A252-C186F8BC6137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC62399-E48C-4FBB-A252-C186F8BC6137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC62399-E48C-4FBB-A252-C186F8BC6137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A0E97D8-3BAF-499F-8B53-19FE2DDF5B57}
+	EndGlobalSection
+EndGlobal
