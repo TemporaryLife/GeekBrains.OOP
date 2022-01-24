@@ -1,0 +1,16 @@
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.exe
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.deps.json
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.runtimeconfig.json
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.runtimeconfig.dev.json
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.dll
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\ref\Anatoly.Buildings.dll
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\bin\Debug\net5.0\Anatoly.Buildings.pdb
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.csproj.AssemblyReference.cache
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.AssemblyInfoInputs.cache
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.AssemblyInfo.cs
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.csproj.CoreCompileInputs.cache
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.dll
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\ref\Anatoly.Buildings.dll
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.pdb
+C:\Users\Konstantin\source\repos\Anatoly.Buildings\obj\Debug\net5.0\Anatoly.Buildings.genruntimeconfig.cache
